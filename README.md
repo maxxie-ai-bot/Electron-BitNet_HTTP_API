@@ -14,10 +14,11 @@ Running [Microsoft's BitNet](https://github.com/microsoft/BitNet) via [Astro](ht
 ## How to setup this application
 
 ### Automated Setup (Windows)
-We provide a setup script to check for NodeJS/Python dependencies and install your `npm` packages automatically. To run it, open PowerShell and execute:
-```powershell
-.\setup.ps1
+We provide a setup script to check for NodeJS/Python dependencies and install your `npm` packages automatically. To run it, just double-click the `setup.bat` file in the project folder, or open your terminal and execute:
+```cmd
+.\setup.bat
 ```
+*(This wrapper acts as a shortcut that automatically bypasses strict PowerShell execution policies for you!)*
 
 ### Manual Setup
 - **Prerequisite**: Ensure [Node.js (LTS)](https://nodejs.org/) is installed on your system.
