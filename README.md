@@ -13,6 +13,18 @@ Running [Microsoft's BitNet](https://github.com/microsoft/BitNet) via [Astro](ht
 
 ## How to setup this application
 
+### Automated Setup (Windows)
+We provide a setup script to check for NodeJS/Python dependencies and install your `npm` packages automatically. To run it, open PowerShell and execute:
+```powershell
+.\setup.ps1
+```
+
+### Manual Setup
+- **Prerequisite**: Ensure [Node.js (LTS)](https://nodejs.org/) is installed on your system.
+  - Go to the official Node.js website: [nodejs.org](https://nodejs.org/).
+  - Download the recommended **LTS (Long Term Support)** installer for Windows.
+  - Run the installer and just keep clicking "Next" (ensure "Add to PATH" is checked).
+  - Once finished, restart your IDE/Terminal and run `npm install`.
 - Use python to prepare 1-bit models
   - Follow [Microsoft's instructions](https://github.com/microsoft/BitNet?tab=readme-ov-file#installation), installing visual studio 2022 (including c++ desktop build tools & clang build tools) and preparing Microsoft's [Official BitNet model](https://huggingface.co/microsoft/bitnet-b1.58-2B-4T) for use.
   - OR: Download Microsoft's official BitNet model directly: https://huggingface.co/microsoft/bitnet-b1.58-2B-4T-gguf
